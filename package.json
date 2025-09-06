@@ -1,12 +1,12 @@
 {
-  "name": "swiftride-test",
+  "name": "swiftride",
   "version": "1.0.0",
-  "description": "Test project for Jenkins setup",
+  "description": "SwiftRide Project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo 'Building project...'",
-    "test": "echo 'Running tests...'"
+    "build": "echo 'Building SwiftRide project...'",
+    "test": "echo 'Running tests...' && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2"
